@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1635308475953,
+  "index": "https://gabrilea.github.io/basepwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://gabrilea.github.io/basepwa/favicon.ico",
+        "https://gabrilea.github.io/basepwa/index.html",
+        "https://gabrilea.github.io/basepwa/main.be12b0da7ba4fde8ece2.js",
+        "https://gabrilea.github.io/basepwa/manifest.webmanifest",
+        "https://gabrilea.github.io/basepwa/polyfills.77a1993727a31fa030dd.js",
+        "https://gabrilea.github.io/basepwa/runtime.18821b64a88c577ecb6a.js",
+        "https://gabrilea.github.io/basepwa/styles.11cf6b3a7e166a1bde8d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://gabrilea.github.io/basepwa/assets/icons/icon-128x128.png",
+        "https://gabrilea.github.io/basepwa/assets/icons/icon-144x144.png",
+        "https://gabrilea.github.io/basepwa/assets/icons/icon-152x152.png",
+        "https://gabrilea.github.io/basepwa/assets/icons/icon-192x192.png",
+        "https://gabrilea.github.io/basepwa/assets/icons/icon-384x384.png",
+        "https://gabrilea.github.io/basepwa/assets/icons/icon-512x512.png",
+        "https://gabrilea.github.io/basepwa/assets/icons/icon-72x72.png",
+        "https://gabrilea.github.io/basepwa/assets/icons/icon-96x96.png",
+        "https://gabrilea.github.io/basepwa/assets/icons/manifest.json",
+        "https://gabrilea.github.io/basepwa/assets/shipping.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://gabrilea.github.io/basepwa/assets/icons/icon-128x128.png": "8fff1ad6ab1c755b6dbd2d97146f9e6f6ce30d8c",
+    "https://gabrilea.github.io/basepwa/assets/icons/icon-144x144.png": "49cf0f9727365e04c0397f99d496f1b9aadd7525",
+    "https://gabrilea.github.io/basepwa/assets/icons/icon-152x152.png": "35bcd306f373aa6da5346e89bf5a338bd7e8c1d3",
+    "https://gabrilea.github.io/basepwa/assets/icons/icon-192x192.png": "f7193816a0aa11590df9bb12e3d1107cc9ea43be",
+    "https://gabrilea.github.io/basepwa/assets/icons/icon-384x384.png": "655b8329b271d7c1196ce63466f876cae310f6ec",
+    "https://gabrilea.github.io/basepwa/assets/icons/icon-512x512.png": "0a5c2c895717292ca1813cb220451ddf4a1382c2",
+    "https://gabrilea.github.io/basepwa/assets/icons/icon-72x72.png": "5511c57bf135a9a3ac07275ff9707fd4f9cc3aa3",
+    "https://gabrilea.github.io/basepwa/assets/icons/icon-96x96.png": "b9af91887e762bfc759f03a4c83084d64082bfe2",
+    "https://gabrilea.github.io/basepwa/assets/icons/manifest.json": "c4e78a7016ba4611cff07729a7dfdba7f35d05a8",
+    "https://gabrilea.github.io/basepwa/assets/shipping.json": "9f9e342c76babd68907ccdb6c8d75b761fac74e1",
+    "https://gabrilea.github.io/basepwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://gabrilea.github.io/basepwa/index.html": "e2c42667beb0c037cf94e33315cfdd4c7493323c",
+    "https://gabrilea.github.io/basepwa/main.be12b0da7ba4fde8ece2.js": "0776ae00ed789373c30d64c7e8891c9c7286c663",
+    "https://gabrilea.github.io/basepwa/manifest.webmanifest": "5b11e35c68e709b7cac3f52993049cc430ce1626",
+    "https://gabrilea.github.io/basepwa/polyfills.77a1993727a31fa030dd.js": "4cf661614a4ec3db0f1098456e80b8d00128d1d0",
+    "https://gabrilea.github.io/basepwa/runtime.18821b64a88c577ecb6a.js": "7e55b36d225118431e7c39e9bc0c06b3379216b2",
+    "https://gabrilea.github.io/basepwa/styles.11cf6b3a7e166a1bde8d.css": "afdfbd6fa0a454418a996df3f3117579c16d465e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
